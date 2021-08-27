@@ -23,9 +23,11 @@ apt-utils
 avahi-daemon
 # For field debugging
 avahi-utils
+# baobab, flatpak exists but has limitations
 baobab
 bluez-obexd
 bolt
+# CD Burning, No flatpak exists, likely needs new portal that's not coming
 brasero
 brasero-cdrkit
 # Provides the default --init executable for podman
@@ -46,6 +48,7 @@ e2fsprogs-l10n
 efitools [amd64]
 # For flatpak-builder
 elfutils
+# EOG Image viewer, flatpak exists - trash viewing issue
 eog
 eos-acknowledgements
 eos-adblock-plus-extensions
@@ -68,13 +71,16 @@ eos-phone-home
 eos-onboarding-extension
 eos-updater-tools
 eos-watermark-extension
+# PDF viewer, flatpak exists - trash viewing issue
 evince
+# Mail client, flatpak exists
 evolution
 # For spam filtering
 evolution-plugin-bogofilter
 # For Outlook import
 evolution-plugin-pstimport
 evolution-plugins
+# file-roller, flatpak exists - possible issue #4
 file-roller
 flatpak
 flatpak-builder
@@ -108,19 +114,25 @@ fprintd
 # For rootless podman
 fuse-overlayfs
 gdb
+# Text editor, flatpak exists - not all plugins may work
 gedit
 git
 # For showing the keyboard layout from the control center
 gkbd-capplet
 gnome-bluetooth
+# gnome-calculator, flatpak exists
 gnome-calculator
+# gnome-clocks, flatpak exists
 gnome-clocks
+# gnome-contacts, flatpak exists
 gnome-contacts
 gnome-control-center
 gnome-disk-utility
+# gnome-font-viewer, flatpak exists
 gnome-font-viewer
 gnome-initial-setup
 gnome-keyring-pkcs11
+# gnome-logs, out of date flatpak exists
 gnome-logs
 gnome-online-accounts
 gnome-orca
@@ -204,7 +216,9 @@ python3-venv
 runc
 rtkit
 sane-airscan
+# Shotwell, flatpak exists
 shotwell
+# simple-scan, no flatpak exists (may need new portal?)
 simple-scan
 # For rootless podman
 slirp4netns
